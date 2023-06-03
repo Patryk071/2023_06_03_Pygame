@@ -1,10 +1,16 @@
 import pygame
+import random
 pygame.font.init()
 
 WIDTH, HEIGHT = 480, 480
 SIZE = 20
 WIDTH_BOX = WIDTH // SIZE
 HEIGHT_BOX = HEIGHT // SIZE
+
+UP = (0, -1)
+DOWN = (0, 1)
+LEFT = (-1, 0)
+RIGHT = (1, 0)
 
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
